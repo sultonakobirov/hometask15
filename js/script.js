@@ -5,6 +5,12 @@ let helloWolrd = () => {
 }
 helloWolrd()
 
+//task1.2
+let arrayOne = [true, 123, "error"]
+function functionShow(array) {
+    console.log(array[0], array.length);
+}
+
 //task2
 let mult = (a, b) => {
     return a * b
