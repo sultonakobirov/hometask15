@@ -10,6 +10,7 @@ let arrayOne = [true, 123, "error"]
 function functionShow(array) {
     console.log(array[0], array.length);
 }
+functionShow(arrayOne)
 
 //task2
 let mult = (a, b) => {
