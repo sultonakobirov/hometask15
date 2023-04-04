@@ -22,6 +22,14 @@ setTimeout(() =>{
 }, 1000)
 mult()
 
+//task 2.2
+let myFn = () => {
+    setTimeout(() => {
+        console.log('Привет из функции myFn')
+    }, 2000);
+}
+myFn()
+
 //task3
 array = [1, 6, -5, -5, 100,-50, "dfd", true]
 
@@ -60,6 +68,7 @@ sumOfObject(objectWithNumbers)
 //task5 
 let a = 'first'
 let b = 'second'
+console.log(`${a} ${b}`);
 let changeValues = (a, b) => {
     b = [a, a = b][0];
     console.log(a, b);
