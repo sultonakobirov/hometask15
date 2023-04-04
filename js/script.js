@@ -8,7 +8,7 @@ helloWolrd()
 //task1.2
 let arrayOne = [true, 123, "error"]
 function functionShow(array) {
-    console.log(array[0], array.length);
+    console.log(`First element: ${array[0]}, Length of array: ${array.length}`);
 }
 functionShow(arrayOne)
 
