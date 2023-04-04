@@ -1,5 +1,5 @@
 //task1
-let helloWolrd = () => {
+function helloWolrd(){
     setTimeout(()=>{console.log("Hello World!")
 },5000);
 }
