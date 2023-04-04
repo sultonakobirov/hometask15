@@ -45,10 +45,10 @@ function sumOfObject(object) {
     numberArray = Object.values(object)
     numberArray = numberArray.filter(element => typeof element === "number")
     numberArray = numberArray.map((item) => sum+= item)[numberArray.length - 1]
-
+    console.log(numberArray)
 }
-let resultTask4 = sumOfObject(objectWithNumbers)
-console.log(resultTask4)
+sumOfObject(objectWithNumbers)
+
 
 //task5 
 let a = 'first'
